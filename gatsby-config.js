@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Andres Rose Consultancy",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Andres Rose Business Consultancy",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -12,6 +12,13 @@ module.exports = {
         sassOptions: {
           indentedSyntax: true,
         },
+      },
+    },
+    {
+      resolve: '@chakra-ui/gatsby-plugin',
+      options: {
+        resetCSS: true,
+        isUsingColorMode: false,
       },
     },
     {
