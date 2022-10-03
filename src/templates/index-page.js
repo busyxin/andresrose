@@ -68,7 +68,7 @@ export const IndexPageTemplate = () => {
             alt={'Login Image'}
             objectFit={'cover'}
             objectPosition={'25%'}
-            src={'img/Andres_Rose.jpg'}
+            src={'/img/Andres_Rose.jpg'}
           />
         </Flex>
       </Stack>

@@ -45,7 +45,7 @@ export const AboutPageTemplate = () => {
           <Image
             rounded={'md'}
             alt={'Rose Management Business'}
-            src={'img/about1.jpg'}
+            src={'/img/about1.jpg'}
             objectFit={'cover'}
             objectPosition={'top'}
             maxH={410}
@@ -59,7 +59,7 @@ export const AboutPageTemplate = () => {
             <Image
               rounded={'md'}
               alt={'Rose Management Team'}
-              src={'img/about2.jpg'}
+              src={'/img/about2.jpg'}
               objectFit={'cover'}
             />
           </Flex>

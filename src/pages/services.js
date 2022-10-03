@@ -120,7 +120,7 @@ export const ServicePageTemplate = () => {
             <Image
               rounded={'md'}
               alt={'Services at Rose Management'}
-              src={'img/services.jpg'}
+              src={'/img/services.jpg'}
               objectFit={'cover'}
             />
           </Flex>

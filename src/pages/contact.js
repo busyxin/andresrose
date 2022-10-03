@@ -26,7 +26,7 @@ export const ContactPageTemplate = () => {
       <Image
         rounded={'md'}
         alt={'Rose Management in Malta'}
-        src={'img/malta.jpg'}
+        src={'/img/malta.jpg'}
         objectFit={'cover'}
         maxH={400}
         w={'100%'}
