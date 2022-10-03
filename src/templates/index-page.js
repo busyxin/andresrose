@@ -1,6 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import {
@@ -42,7 +41,7 @@ export const IndexPageTemplate = () => {
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              Let's start with a call and find out how we can grow your tech business together.
+              Hi, I'm <strong>Andrés Rose</strong> and I bring you years of expertise in industries that boast exponential growth. Let's start with a call and find out how we can grow your tech business together.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
               {/* <Button
@@ -68,34 +67,21 @@ export const IndexPageTemplate = () => {
           <Image
             alt={'Login Image'}
             objectFit={'cover'}
+            objectPosition={'25%'}
             src={'img/Andres_Rose.jpg'}
           />
         </Flex>
       </Stack>
-
     </div>
   );
 };
 
-IndexPageTemplate.propTypes = {
-};
-
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
-
+const IndexPage = () => {
   return (
     <Layout>
       <IndexPageTemplate/>
     </Layout>
   );
-};
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
 };
 
 export default IndexPage;
