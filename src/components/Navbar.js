@@ -25,7 +25,8 @@ const Navbar = () => {
         direction={{ base: 'column', md: 'row' }}
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
-        align={{ base: 'center', md: 'center' }}>
+        align={{ base: 'center', md: 'center' }}
+      >
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo">
             <img src={logo} alt="Andrés Rose" style={{ width: "150px", "margin-top": "-8px" }} />

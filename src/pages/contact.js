@@ -3,19 +3,11 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import {
-  Button,
   Container,
-  Flex,
   Heading,
   Link,
   Image,
-  SimpleGrid,
-  Stack,
-  HStack,
-  StackDivider,
-  Icon,
   Text,
-  useColorModeValue,
 } from '@chakra-ui/react';
 
 // eslint-disable-next-line

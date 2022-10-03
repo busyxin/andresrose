@@ -48,11 +48,9 @@ const Feature = ({ text, desc, icon, iconBg }) => {
 // eslint-disable-next-line
 export const ServicePageTemplate = () => {
   return (
-    <div>
       <Container maxW={'5xl'} py={12}>
+        <Heading as='h1' mb={50}>Paradigm shift for 21st century leaders</Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50}>
-          <Heading as='h1'>Paradigm shifts at workplaces</Heading>
-          <div></div>
           <div>
             <Text color={'gray.500'} fontSize={'lg'} mb='1rem'>
               The ongoing evolution of the world and the workplace has left many companies lagging. We are facing a new online and remote world where both opportunities and challenges become global. At the same time, the employee has become more empowered and decided that there are more important things to look for in a position than the traditional career progress/money axe and the startup's “perks”.
@@ -140,7 +138,6 @@ export const ServicePageTemplate = () => {
           </a>
         </Box>
       </Container>
-    </div>
   );
 };
 
