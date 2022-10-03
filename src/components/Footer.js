@@ -3,12 +3,12 @@ import {
   Box,
   chakra,
   Container,
-  Link,
   Stack,
   Text,
   useColorModeValue,
   VisuallyHidden,
 } from '@chakra-ui/react';
+import { Link } from "gatsby";
 import { FaLinkedin } from 'react-icons/fa';
 
 const SocialButton = ({
