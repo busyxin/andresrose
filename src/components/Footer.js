@@ -3,6 +3,7 @@ import {
   Box,
   chakra,
   Container,
+  Link,
   Stack,
   Text,
   useColorModeValue,
@@ -53,7 +54,10 @@ export default function Footer() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Text>© 2022 Andrés Rose. All rights reserved</Text>
-        <Stack direction={'row'} spacing={6}>
+        <Stack align={{ base: 'center', md: 'center' }} direction={'row'} spacing={6}>
+          <Link to="/contact">
+            Legal Notice
+          </Link>
           <SocialButton label={'linkedIn'} href={'https://www.linkedin.com/in/andr%C3%A9s-rose-988288a1/'} >
             <FaLinkedin />
           </SocialButton>

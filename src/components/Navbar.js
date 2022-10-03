@@ -44,13 +44,13 @@ const Navbar = () => {
         </div>
         <ul id="navMenu" className={` navbar-start has-text-centered navbar-menu ${isActive && "is-active"}`}>
           <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/about">
-              About
+            <Link className="navbar-item" to="/services">
+              Services
             </Link>
           </li>
           <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/services">
-              Services
+            <Link className="navbar-item" to="/about">
+              About
             </Link>
           </li>
           <li className="navbar-item" style={{padding: "0px"}}>
