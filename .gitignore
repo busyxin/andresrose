@@ -2,8 +2,8 @@
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 .cache/
-# Build directory
-public/
+# Build directory (keep public/ - it holds static assets deployed with the site)
+# public/  ← do not ignore; images in public/img/ are required for deployment
 static/admin/*.bundle.*
 .DS_Store
 yarn-error.log
