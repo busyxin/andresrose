@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactPage from '../components/pages/ContactPage.jsx';
+---
+<BaseLayout>
+  <ContactPage client:only="react" />
+</BaseLayout>
