@@ -52,7 +52,7 @@ export default function Footer() {
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
-        <Text>© 2022 Andrés Rose. All rights reserved</Text>
+        <Text>© {new Date().getFullYear()} Andrés Rose. All rights reserved</Text>
         <Stack align={{ base: 'center', md: 'center' }} direction={'row'} spacing={6}>
           <a href="/contact">
             Legal Notice
