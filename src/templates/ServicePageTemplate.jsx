@@ -124,10 +124,10 @@ export default function ServicePageTemplate() {
           Are you looking for a different approach to building an<br/>A-performer remote Sales/Marketing team?
         </Text>
         <a href="https://calendly.com/andres-rose" target='_blank' rel='noopener noreferrer'>
-          <Button rounded={'full'} bg={'blue.500'}
+          <Button rounded={'full'} bg={'blue.600'}
             color={'white'}
             _hover={{
-              bg: 'blue.600',
+              bg: 'blue.700',
             }}>Get in touch</Button>
         </a>
       </Box>
