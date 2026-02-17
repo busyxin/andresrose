@@ -63,6 +63,7 @@ const Navbar = () => {
               href="https://www.linkedin.com/in/andr%C3%A9s-rose-988288a1/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
               <span className="icon">
                 <FaLinkedin

@@ -61,14 +61,22 @@ export const IndexPageTemplate = () => {
           </Stack>
         </Flex>
         <Flex flex={1}>
-          <Image
-            alt={'Andrés Rose portrait'}
-            objectFit={'cover'}
-            objectPosition={'25%'}
-            src={'/img/Andres_Rose.webp'}
-            width={1280}
-            height={960}
-          />
+          <picture style={{ display: 'contents' }}>
+            <source
+              media="(max-width: 767px)"
+              srcSet="/img/Andres_Rose_mobile.webp"
+              width={640}
+              height={480}
+            />
+            <Image
+              alt={'Andrés Rose portrait'}
+              objectFit={'cover'}
+              objectPosition={'25%'}
+              src={'/img/Andres_Rose.webp'}
+              width={'100%'}
+              height={'100%'}
+            />
+          </picture>
         </Flex>
       </Stack>
     </div>

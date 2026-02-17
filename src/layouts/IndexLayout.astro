@@ -3,5 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import HomePage from '../components/pages/HomePage.jsx';
 ---
 <BaseLayout>
+  <link slot="head" rel="preload" as="image" href="/img/Andres_Rose_mobile.webp" media="(max-width: 767px)" fetchpriority="high" />
+  <link slot="head" rel="preload" as="image" href="/img/Andres_Rose.webp" media="(min-width: 768px)" fetchpriority="high" />
   <HomePage client:only="react" />
 </BaseLayout>
