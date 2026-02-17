@@ -46,18 +46,18 @@ export default function ServicePageTemplate() {
       <Heading as='h1' mb={50}>Paradigm shift for 21st century leaders</Heading>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50}>
         <div>
-          <Text color={'gray.500'} fontSize={'lg'} mb='1rem'>
+          <Text color={'gray.600'} fontSize={'lg'} mb='1rem'>
             The ongoing evolution of the world and the workplace has left many companies lagging. We are facing a new online and remote world where both opportunities and challenges become global. At the same time, the employee has become more empowered and decided that there are more important things to look for in a position than the traditional career progress/money axe and the startup's "perks".
           </Text>
-          <Text color={'gray.500'} fontSize={'lg'} mb='1rem'>
+          <Text color={'gray.600'} fontSize={'lg'} mb='1rem'>
             Employees are demanding meaning in their daily work and to be treated as an important part of the business. This brings new challenges about how to build a team that is high performance while happy and constant in their daily jobs.
           </Text>
         </div>
         <div>
-          <Text color={'gray.500'} fontSize={'lg'} mb='1rem'>
+          <Text color={'gray.600'} fontSize={'lg'} mb='1rem'>
             We are a team of young professionals who have been at the vanguard of building up online companies and teams, learning the nuisances and special needs of this kind of workplace.
           </Text>
-          <Text color={'gray.500'} fontSize={'lg'} mb='1rem'>
+          <Text color={'gray.600'} fontSize={'lg'} mb='1rem'>
             Is not only about efficiency but about having a happy and proactive team, who approaches its daily job with ownership and responsibility.
           </Text>
         </div>
@@ -67,7 +67,7 @@ export default function ServicePageTemplate() {
         <Stack spacing={4}>
           <Text
             textTransform={'uppercase'}
-            color={'blue.400'}
+            color={'blue.500'}
             fontWeight={600}
             fontSize={'sm'}
             bg={useColorModeValue('blue.50', 'blue.900')}
@@ -112,8 +112,10 @@ export default function ServicePageTemplate() {
           <Image
             rounded={'md'}
             alt={'Services at Rose Management'}
-            src={'/img/services.jpg'}
+            src={'/img/services.webp'}
             objectFit={'cover'}
+            width={3500}
+            height={2336}
           />
         </Flex>
       </SimpleGrid>
@@ -122,10 +124,10 @@ export default function ServicePageTemplate() {
           Are you looking for a different approach to building an<br/>A-performer remote Sales/Marketing team?
         </Text>
         <a href="https://calendly.com/andres-rose" target='_blank' rel='noopener noreferrer'>
-          <Button rounded={'full'} bg={'blue.400'}
+          <Button rounded={'full'} bg={'blue.500'}
             color={'white'}
             _hover={{
-              bg: 'blue.500',
+              bg: 'blue.600',
             }}>Get in touch</Button>
         </a>
       </Box>

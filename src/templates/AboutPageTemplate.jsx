@@ -27,13 +27,13 @@ export default function AboutPageTemplate() {
               borderColor={useColorModeValue('gray.100', 'gray.700')}
             />
           }>
-          <Text color={'gray.500'} fontSize={'lg'}>
+          <Text color={'gray.600'} fontSize={'lg'}>
             From Rose Management we offer full-scope consultancy and management services. With many years of experience managing and building online teams, we aim to provide you with the know-how and hands-on help to build up your own Rockstar team.
           </Text>
-          <Text color={'gray.500'} fontSize={'lg'}>
+          <Text color={'gray.600'} fontSize={'lg'}>
             We believe that the focus on employee hiring, training, and retention are the critical factors many companies are struggling with right now, in an exceptionally volatile and changing environment..
           </Text>
-          <Text color={'gray.500'} fontSize={'lg'}>
+          <Text color={'gray.600'} fontSize={'lg'}>
             We believe that remote and hybrid models have arrived to stay as more and more A-players are making it a necessary condition for their work.
           </Text>
         </Stack>
@@ -41,11 +41,13 @@ export default function AboutPageTemplate() {
           <Image
             rounded={'md'}
             alt={'Rose Management Business'}
-            src={'/img/about1.jpg'}
+            src={'/img/about1.webp'}
             objectFit={'cover'}
             objectPosition={'top'}
             maxH={410}
             w={'100%'}
+            width={4000}
+            height={6000}
           />
         </Flex>
       </SimpleGrid>
@@ -55,8 +57,10 @@ export default function AboutPageTemplate() {
           <Image
             rounded={'md'}
             alt={'Rose Management Team'}
-            src={'/img/about2.jpg'}
+            src={'/img/about2.webp'}
             objectFit={'cover'}
+            width={6000}
+            height={4000}
           />
         </Flex>
         <Stack
@@ -66,11 +70,11 @@ export default function AboutPageTemplate() {
               borderColor={useColorModeValue('gray.100', 'gray.700')}
             />
           }>
-          <Text color={'gray.500'} fontSize={'lg'}>
+          <Text color={'gray.600'} fontSize={'lg'}>
             This is not only something to reckon with and adapt to but a great opportunity for companies who are willing to do the changes and work. The professional pool has never been so wide and right now we can build small and efficient teams that work independently yet at the same time cooperate around the globe.
           </Text>
-          <Text color={'gray.500'} fontSize={'lg'}>
-            Through our partnerships with <Link href='https://zealsio.com' color={'blue.400'} isExternal>Zealsio</Link> and <Link href='https://yesnowww.com' color={'blue.400'} isExternal>YesNow</Link>, we can provide a comprehensive assessment and solutions for your business.
+          <Text color={'gray.600'} fontSize={'lg'}>
+            Through our partnerships with <Link href='https://zealsio.com' color={'blue.500'} isExternal>Zealsio</Link> and <Link href='https://yesnowww.com' color={'blue.500'} isExternal>YesNow</Link>, we can provide a comprehensive assessment and solutions for your business.
           </Text>
         </Stack>
       </SimpleGrid>
@@ -79,10 +83,10 @@ export default function AboutPageTemplate() {
           Are you looking for a different approach to building an<br/>A-performer remote Sales/Marketing team?
         </Text>
         <a href="https://calendly.com/andres-rose" target='_blank' rel='noopener noreferrer'>
-          <Button rounded={'full'} bg={'blue.400'}
+          <Button rounded={'full'} bg={'blue.500'}
             color={'white'}
             _hover={{
-              bg: 'blue.500',
+              bg: 'blue.600',
             }}>Get in touch</Button>
         </a>
       </Box>

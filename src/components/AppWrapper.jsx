@@ -7,7 +7,7 @@ export default function AppWrapper({ children }) {
   return (
     <ChakraProvider resetCSS={true} disableGlobalStyle={false}>
       <Navbar />
-      <div>{children}</div>
+      <main>{children}</main>
       <Footer />
     </ChakraProvider>
   );

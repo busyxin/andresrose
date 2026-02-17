@@ -11,9 +11,9 @@ export default function ContactPageTemplate() {
   return (
     <Container minH={'90vh'} maxW={'5xl'} py={12}>
       <Heading as='h1' mb={50}>Contact & Legal Notice</Heading>
-      <Text color={'gray.500'} fontSize={'lg'} mb={50}>
+      <Text color={'gray.600'} fontSize={'lg'} mb={50}>
         Rose Management Services Ltd<br/>
-        <Link color={'blue.400'} href='mailto:info@andresrose.com'>
+        <Link color={'blue.500'} href='mailto:info@andresrose.com'>
           info@andresrose.com
         </Link><br/>
         Office 2, Skyway Offices, Marina Street Pieta Malta<br/>
@@ -22,10 +22,12 @@ export default function ContactPageTemplate() {
       <Image
         rounded={'md'}
         alt={'Rose Management in Malta'}
-        src={'/img/malta.jpg'}
+        src={'/img/malta.webp'}
         objectFit={'cover'}
         maxH={400}
         w={'100%'}
+        width={2791}
+        height={3721}
       />
     </Container>
   );

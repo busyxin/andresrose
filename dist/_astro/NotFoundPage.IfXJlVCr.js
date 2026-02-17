@@ -1,1 +1,0 @@
-import{j as t,A as s}from"./AppWrapper.DI2X-wUy.js";import"./index.CK_NLgOy.js";function i(){return t.jsx(s,{children:t.jsxs("div",{children:[t.jsx("h1",{children:"NOT FOUND"}),t.jsx("p",{children:"You just hit a route that doesn't exist... the sadness."})]})})}export{i as default};

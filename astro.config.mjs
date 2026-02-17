@@ -4,6 +4,9 @@ import react from '@astrojs/react';
 export default defineConfig({
   integrations: [react()],
   output: 'static',
+  build: {
+    inlineStylesheets: 'always',
+  },
   vite: {
     ssr: {
       noExternal: ['react-icons'],

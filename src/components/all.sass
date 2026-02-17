@@ -1,7 +1,7 @@
 @import "bulma/sass/utilities/initial-variables"
 
 // Config vars
-$andres-blue: #4299e1
+$andres-blue: #3182CE
 $andres-blue-invert: #fff
 
 $primary: $andres-blue
@@ -112,23 +112,21 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
-@import "bulma/bulma.sass"
+// Selective Bulma imports (only what the site uses)
+@import "bulma/sass/utilities/_all"
+@import "bulma/sass/base/_all"
+@import "bulma/sass/components/navbar"
+@import "bulma/sass/helpers/typography"
+@import "bulma/sass/helpers/visibility"
+@import "bulma/sass/helpers/flexbox"
 
 
 // responsiveness
 +tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%
   .navbar-brand
     width: 100%
 
 +mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center
-    max-width: 70%
-    margin: 0 0 1em
   .navbar-brand
     width: 100%
 

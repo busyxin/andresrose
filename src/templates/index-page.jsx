@@ -27,17 +27,17 @@ export const IndexPageTemplate = () => {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'blue.400',
+                  bg: 'blue.500',
                   zIndex: -1,
                 }}>
                 Business and Sales
               </Text>
               <br />{' '}
-              <Text color={'blue.400'} as={'span'}>
+              <Text color={'blue.500'} as={'span'}>
                 Consultancy
               </Text>{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.600'}>
               Hi, I'm <strong>Andrés Rose</strong> and I bring you years of expertise in industries that boast exponential growth. Let's start with a call and find out how we can grow your tech business together.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
@@ -51,10 +51,10 @@ export const IndexPageTemplate = () => {
                 Services
               </Button> */}
               <a href="https://calendly.com/andres-rose" target='_blank' rel='noopener noreferrer'>
-                <Button rounded={'full'} bg={'blue.400'}
+                <Button rounded={'full'} bg={'blue.500'}
                 color={'white'}
                 _hover={{
-                  bg: 'blue.500',
+                  bg: 'blue.600',
                 }}>Get in touch</Button>
               </a>
             </Stack>
@@ -62,10 +62,12 @@ export const IndexPageTemplate = () => {
         </Flex>
         <Flex flex={1}>
           <Image
-            alt={'Login Image'}
+            alt={'Andrés Rose portrait'}
             objectFit={'cover'}
             objectPosition={'25%'}
-            src={'/img/Andres_Rose.jpg'}
+            src={'/img/Andres_Rose.webp'}
+            width={1280}
+            height={960}
           />
         </Flex>
       </Stack>
