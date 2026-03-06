@@ -11,6 +11,9 @@ export default function ContactPageTemplate() {
   return (
     <Container minH={'90vh'} maxW={'5xl'} py={12}>
       <Heading as='h1' mb={50}>Contact & Legal Notice</Heading>
+      <Text color={'gray.600'} fontSize={'lg'} mb={6}>
+        Get in touch with Rose Management Services for business consultancy, remote team building, and sales training. We work with tech companies worldwide to help them build high-performing teams. Whether you have a specific question or want to explore how we can support your growth, we're here to help.
+      </Text>
       <Text color={'gray.600'} fontSize={'lg'} mb={50}>
         Rose Management Services Ltd<br/>
         <Link color={'blue.500'} href='mailto:info@andresrose.com'>

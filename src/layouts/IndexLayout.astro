@@ -1,8 +1,11 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import HomePage from '../components/pages/HomePage.jsx';
+import { siteMetadata } from '../config';
+
+const { title = siteMetadata.title, description = siteMetadata.description } = Astro.props;
 ---
-<BaseLayout>
+<BaseLayout title={title} description={description}>
   <link slot="head" rel="preload" as="image" href="/img/Andres_Rose_mobile.webp" media="(max-width: 767px)" fetchpriority="high" />
   <link slot="head" rel="preload" as="image" href="/img/Andres_Rose.webp" media="(min-width: 768px)" fetchpriority="high" />
   <HomePage client:only="react" />

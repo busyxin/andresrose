@@ -1,0 +1,1 @@
+import{j as e,A as o}from"./AppWrapper.BkKHys7I.js";import"./index.CK_NLgOy.js";function n(){return e.jsx(o,{children:e.jsxs("div",{children:[e.jsx("h1",{children:"Page Not Found"}),e.jsx("p",{children:"The page you're looking for doesn't exist. Please check the URL or return to the homepage to find what you need."})]})})}export{n as default};

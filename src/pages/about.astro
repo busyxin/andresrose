@@ -2,6 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AboutPage from '../components/pages/AboutPage.jsx';
 ---
-<BaseLayout>
+<BaseLayout
+  title="About Rose Management | Andres Rose Consultancy"
+  description="Learn about Rose Management and our approach to remote team building. We offer full-scope consultancy for hiring, training, and retaining high-performing teams in a changing workplace."
+>
   <AboutPage client:only="react" />
 </BaseLayout>

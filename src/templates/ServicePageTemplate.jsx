@@ -63,7 +63,7 @@ export default function ServicePageTemplate() {
         </div>
       </SimpleGrid>
 
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50} alignItems="flex-start">
         <Stack spacing={4}>
           <Text
             textTransform={'uppercase'}
@@ -104,16 +104,19 @@ export default function ServicePageTemplate() {
               }
               iconBg={useColorModeValue('purple.100', 'purple.900')}
               text={'Consultancy'}
-              desc={'Do you have any specific topic or question you would like us to tackle? We offer a complete consultancy both from the Management/Sales perspective as well as IT and Design topics with our partners Zealzio and YesWhen. Lets us have a discovery call and find out how we can help you.'}
+              desc={'Do you have any specific topic or question you would like us to tackle? We offer a complete consultancy both from the Management/Sales perspective as well as IT and Design topics with our partners Zealsio and YesNowww. Lets us have a discovery call and find out how we can help you.'}
             />
           </Stack>
         </Stack>
-        <Flex>
+        <Flex alignSelf="flex-start">
           <Image
             rounded={'md'}
             alt={'Services at Rose Management'}
             src={'/img/services.webp'}
             objectFit={'cover'}
+            objectPosition={'center'}
+            maxH={320}
+            w={'100%'}
             width={3500}
             height={2336}
           />

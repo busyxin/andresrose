@@ -9,7 +9,13 @@ export default defineConfig({
   },
   vite: {
     ssr: {
-      noExternal: ['react-icons'],
+      noExternal: [
+        'react-icons',
+        /^@chakra-ui\//,
+        '@emotion/react',
+        '@emotion/styled',
+        'framer-motion',
+      ],
     },
     css: {
       preprocessorOptions: {

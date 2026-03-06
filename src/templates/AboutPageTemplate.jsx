@@ -18,7 +18,7 @@ export default function AboutPageTemplate() {
   return (
     <Container maxW={'5xl'} py={12}>
       <Heading as='h1' mb={50}>About Rose Management</Heading>
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={{ base: 50, md: 100 }}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={{ base: 50, md: 100 }} alignItems="flex-start">
         <Stack
           spacing={4}
           order={{ base: 2, md: 1 }}
@@ -37,14 +37,14 @@ export default function AboutPageTemplate() {
             We believe that remote and hybrid models have arrived to stay as more and more A-players are making it a necessary condition for their work.
           </Text>
         </Stack>
-        <Flex order={{ base: 1, md: 2 }}>
+        <Flex order={{ base: 1, md: 2 }} alignSelf="flex-start">
           <Image
             rounded={'md'}
             alt={'Rose Management Business'}
             src={'/img/about1.webp'}
             objectFit={'cover'}
             objectPosition={'top'}
-            maxH={410}
+            maxH={320}
             w={'100%'}
             width={4000}
             height={6000}
@@ -52,13 +52,16 @@ export default function AboutPageTemplate() {
         </Flex>
       </SimpleGrid>
 
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50}>
-        <Flex>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mb={50} alignItems="flex-start">
+        <Flex alignSelf="flex-start">
           <Image
             rounded={'md'}
             alt={'Rose Management Team'}
             src={'/img/about2.webp'}
             objectFit={'cover'}
+            objectPosition={'center'}
+            maxH={320}
+            w={'100%'}
             width={6000}
             height={4000}
           />
@@ -74,7 +77,7 @@ export default function AboutPageTemplate() {
             This is not only something to reckon with and adapt to but a great opportunity for companies who are willing to do the changes and work. The professional pool has never been so wide and right now we can build small and efficient teams that work independently yet at the same time cooperate around the globe.
           </Text>
           <Text color={'gray.600'} fontSize={'lg'}>
-            Through our partnerships with <Link href='https://zealsio.com' color={'blue.500'} isExternal>Zealsio</Link> and <Link href='https://yesnowww.com' color={'blue.500'} isExternal>YesNow</Link>, we can provide a comprehensive assessment and solutions for your business.
+            Through our partnerships with <Link href='https://zealsio.com' color={'blue.500'} isExternal>Zealsio</Link> and <Link href='https://yesnowww.com' color={'blue.500'} isExternal>YesNowww</Link>, we can provide a comprehensive assessment and solutions for your business.
           </Text>
         </Stack>
       </SimpleGrid>

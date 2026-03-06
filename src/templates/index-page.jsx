@@ -16,7 +16,7 @@ export const IndexPageTemplate = () => {
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
-            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+            <Heading as="h1" fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
               <Text
                 as={'span'}
                 position={'relative'}
@@ -38,7 +38,10 @@ export const IndexPageTemplate = () => {
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.600'}>
-              Hi, I'm <strong>Andrés Rose</strong> and I bring you years of expertise in industries that boast exponential growth. Let's start with a call and find out how we can grow your tech business together.
+              Hi, I'm <strong>Andrés Rose</strong> and I bring you years of expertise in industries that boast exponential growth. I specialise in helping tech companies build and scale remote sales and marketing teams that perform.
+            </Text>
+            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.600'}>
+              Whether you need management training, sales team build-up, or hands-on consultancy, I work with you to create high-performing teams that thrive in today's remote-first world. Let's start with a call and find out how we can grow your business together.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
               {/* <Button

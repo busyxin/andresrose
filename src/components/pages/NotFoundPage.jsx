@@ -5,8 +5,8 @@ export default function NotFoundPage() {
   return (
     <AppWrapper>
       <div>
-        <h1>NOT FOUND</h1>
-        <p>You just hit a route that doesn't exist... the sadness.</p>
+        <h1>Page Not Found</h1>
+        <p>The page you're looking for doesn't exist. Please check the URL or return to the homepage to find what you need.</p>
       </div>
     </AppWrapper>
   );
